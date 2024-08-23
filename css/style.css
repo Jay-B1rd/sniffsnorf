@@ -18,6 +18,19 @@ body {
 }
 
 .blog {
-    margin: auto;
-    width: 60%;
+    width: 70%;
+}
+
+.menu {
+    width: 30%;
+}
+
+div {
+    display: flex;
+    margin: 3px;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
 }
