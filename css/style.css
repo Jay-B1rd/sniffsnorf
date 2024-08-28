@@ -1,6 +1,15 @@
+:root {
+    --brown: #3f1a0a;
+    --black: #170909;
+    --lily: #a1a7f4;
+    --darkbrown: #1f1005;
+    --blue: #757aba;
+    --purple: #3d2a52;
+}
+
 .badge {
-    background-color: #dadfea;
-    border: 1px solid #2a2a2a;
+    background-color: var(--darkbrown);
+    border: 1px solid var(--black);
     border-radius: 8px;
     padding: 20px;
     display: flex;
@@ -10,8 +19,8 @@
 }
 
 .menubadge {
-    background-color: #dadfea;
-    border: 1px solid #2a2a2a;
+    background-color: var(--darkbrown);
+    border: 1px solid var(--black);
     border-radius: 8px;
     padding: 20px;
     display: inline-block;
@@ -22,11 +31,17 @@
 }
 
 .badgedate {
-    color: #677087;
+    color: var(--purple);
 }
 
 body {
     font-family: "M PLUS Rounded 1c", sans-serif;
+    background-image: url("../images/background.png");
+    background-color: var(--brown);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--blue);
 }
 
 .blog {
@@ -51,8 +66,8 @@ div {
 }
 
 .story {
-    background-color: #dadfea;
-    border: 1px solid #2a2a2a;
+    background-color: var(--darkbrown);
+    border: 1px solid var(--black);
     border-radius: 8px;
     padding: 20px;
     display: flex;
@@ -79,7 +94,7 @@ div {
 }
 
 .sfooter {
-    color: #677087;
+    color: var(--purple);
     font-size: 12px;
     display: flex;
     flex-direction: column;
@@ -98,4 +113,8 @@ div {
 
 img {
     width: 200px;
+}
+
+a {
+    color: var(--lily);
 }
