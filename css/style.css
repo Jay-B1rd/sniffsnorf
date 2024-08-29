@@ -27,7 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40%;
+    height: 20%;
 }
 
 .badgedate {
@@ -67,6 +67,15 @@ div {
 
 img {
     width: 200px;
+}
+
+.blogimages {
+    display: flex;
+    flex-direction: row;
+}
+
+.blogimg {
+    width: 350px;
 }
 
 a {
