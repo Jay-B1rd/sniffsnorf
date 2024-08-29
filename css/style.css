@@ -2,7 +2,7 @@
     --bgcolor: #3f1a0a;
     --border: #170909;
     --link: #a1a7f4;
-    --fgcolor: #1f1005;
+    --fgcolor: rgba(31, 16, 5, 0.95);
     --text: #757aba;
     --fadedtext: #504175;
 }
