@@ -1,0 +1,74 @@
+:root {
+    --bgcolor: #808479;
+    --border: #21211f;
+    --link: #F77766;
+    --fgcolor: #3c3d3a;
+    --text: #9fa399;
+    --fadedtext: #808479;
+}
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    background-image: url("../images/stykbg.png");
+    background-color: var(--bgcolor);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--text);
+}
+
+div {
+    display: flex;
+    margin: 3px;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.story {
+    background-color: var(--fgcolor);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.stitle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+}
+
+.sbody {
+    text-align: left;
+    text-indent: 2em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sfooter {
+    color: var(--fadedtext);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.2;
+}
+
+.chapternav {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+a {
+    color: var(--link);
+}
