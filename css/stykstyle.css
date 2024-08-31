@@ -9,7 +9,7 @@
 
 body {
     font-family: "M PLUS Rounded 1c", sans-serif;
-    background-image: url("../images/stykbg.png");
+    background-image: url("../images/stykbg.webp");
     background-color: var(--bgcolor);
     background-size: 100%;
     background-repeat: no-repeat;
