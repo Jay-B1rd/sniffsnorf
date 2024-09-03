@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 3px;
 }
 
 .menubadge {
@@ -29,6 +30,7 @@
     align-items: center;
     height: fit-content;
     block-size: fit-content;
+    margin: 5px 0;
 }
 
 .badgedate {
@@ -43,27 +45,34 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--text);
+    margin: 0;
+    padding: 0;
 }
 
 .blog {
     width: 70%;
     display: flex;
     flex-direction: column;
+    margin: 2px 3px;
 }
 
 .menu {
     width: 30%;
     height: auto;
+    margin: 0 3px;
 }
 
+/*
 div {
     display: flex;
     margin: 3px;
 }
+*/
 
 .main {
     width: 70%;
     margin: 0 auto;
+    display: flex;
 }
 
 img {
@@ -83,4 +92,25 @@ img {
 
 a {
     color: var(--link);
+}
+
+.topbar {
+    background-color: var(--fgcolor);
+    color: var(--text);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-self: start;
+    border-bottom: 1px solid var(--border);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.schnif {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
 }
