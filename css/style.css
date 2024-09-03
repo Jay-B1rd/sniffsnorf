@@ -27,7 +27,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: fit-content;
+    block-size: fit-content;
 }
 
 .badgedate {
