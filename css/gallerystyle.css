@@ -11,13 +11,14 @@ body {
     font-family: "M PLUS Rounded 1c", sans-serif;
     background-image: url("../images/gallerybg.webp");
     background-color: var(--bgcolor);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--text);
     margin: 0;
     padding: 0;
 }
+
 /*
 div {
     display: flex;
@@ -57,6 +58,40 @@ div {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.bbody {
+    text-align: left;
+    width: 90%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.dacontent {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.left, .right {
+    padding: 0 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+    line-height: 2;
+}
+
+ol, li {
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
 }
 
 .sfooter {

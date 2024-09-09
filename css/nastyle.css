@@ -11,7 +11,7 @@ body {
     font-family: "M PLUS Rounded 1c", sans-serif;
     background-image: url("../images/nabg.webp");
     background-color: var(--bgcolor);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--text);
