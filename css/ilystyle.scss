@@ -1,0 +1,41 @@
+@use 'mixins';
+@use 'navbar';
+
+$bgcolor: #010101;
+$border: #FCFAFF;
+$link: #a1a7f4;
+$fgcolor: rgba(1, 1, 1, 0.9);
+$text: #757aba;
+$fadedtext: #504175;
+$bgimglink: "../images/atpbg.webp";
+
+.topbar {
+    /*@include mixins.navbar;*/
+    border-bottom: 1px solid $border;
+    background-color: $fgcolor;
+    color: $text;
+}
+
+body {
+    @include mixins.base;
+    background-image: url($bgimglink);
+    background-color: $bgcolor;
+    color: $text;
+}
+
+.main {
+    @include mixins.cmain;
+}
+
+a {
+    color: $link;
+}
+
+.story {
+    background-color: $fgcolor;
+    border: 1px solid $border;
+}
+
+.sfooter {
+    color: $fadedtext;
+}
