@@ -1,0 +1,93 @@
+:root {
+    --bgcolor: #54562B;
+    --border: #151F12;
+    --link: #A1925E;
+    --fgcolor: rgba(36, 38, 23, 0.9);
+    --text: #c2c099;
+    --fadedtext: #7C6D55;
+}
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    background-image: url("../images/nabg.webp");
+    background-color: var(--bgcolor);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
+/*
+div {
+    display: flex;
+    margin: 3px;
+}
+*/
+.main {
+    width: 70%;
+    margin: auto;
+}
+
+.story {
+    background-color: var(--fgcolor);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 5px auto;
+}
+
+.stitle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+}
+
+.sbody {
+    text-align: left;
+    text-indent: 2em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sfooter {
+    color: var(--fadedtext);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.2;
+}
+
+.chapternav {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/*.topbar {
+    background-color: var(--fgcolor);
+    color: var(--text);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-self: start;
+    border-bottom: 1px solid var(--border);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.schnif {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+@use 'mixins';
+
+.topbar {
+    @include mixins.navbar;
+    /*border-bottom: 1px solid $border;
+    background-color: $fgcolor;
+    color: $text;*/
+}
+
+.schnif {
+    @include mixins.cschnif;
+}
+
+.navigation {
+    @include mixins.cnavigation;
+}
