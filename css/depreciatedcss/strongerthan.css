@@ -1,30 +1,37 @@
-@mixin base {
+:root {
+    --bgcolor: #808479;
+    --border: #21211f;
+    --link: #F77766;
+    --fgcolor: rgba(60, 61, 58, 0.9);
+    --text: #9fa399;
+    --fadedtext: #808479;
+}
+
+body {
     font-family: "M PLUS Rounded 1c", sans-serif;
+    background-image: url("../images/stykbg.webp");
+    background-color: var(--bgcolor);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: var(--text);
     margin: 0;
     padding: 0;
-    position: relative;
-    top: 65px;
-    /*
-    background-image: url($bgimglink);
-    background-color: $bgcolor;
-    color: $text;
-    */
 }
-
-@mixin cmain {
+/*
+div {
+    display: flex;
+    margin: 3px;
+}
+*/
+.main {
     width: 70%;
     margin: 0 auto;
-    display: flex;
 }
 
 .story {
-    /*
     background-color: var(--fgcolor);
     border: 1px solid var(--border);
-    */
     border-radius: 8px;
     padding: 20px;
     display: flex;
@@ -51,7 +58,7 @@
 }
 
 .sfooter {
-    /*color: var(--fadedtext);*/
+    color: var(--fadedtext);
     font-size: 12px;
     display: flex;
     flex-direction: column;
@@ -62,4 +69,29 @@
 .chapternav {
     font-size: 12px;
     line-height: 1.5;
+}
+
+a {
+    color: var(--link);
+}
+
+.topbar {
+    background-color: var(--fgcolor);
+    color: var(--text);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-self: start;
+    border-bottom: 1px solid var(--border);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.schnif {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
 }

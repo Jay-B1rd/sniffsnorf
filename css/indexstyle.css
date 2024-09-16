@@ -49,11 +49,9 @@
   align-self: start;
   flex-direction: row;
   justify-content: space-around;
-  /*
-  border-bottom: 1px solid $border;
-  background-color: $fgcolor;
-  color: $text;
-  */
+  position: fixed;
+  width: 100%;
+  top: 0;
   /*border-bottom: 1px solid $border;
   background-color: $fgcolor;
   color: $text;*/
@@ -75,6 +73,8 @@ body {
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  position: relative;
+  top: 65px;
   /*
   background-image: url($bgimglink);
   background-color: $bgcolor;

@@ -1,16 +1,25 @@
 @use 'mixins';
 
 .topbar {
-    @include mixins.navbar;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-self: start;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
     /*border-bottom: 1px solid $border;
     background-color: $fgcolor;
     color: $text;*/
 }
 
 .schnif {
-    @include mixins.cschnif;
+    display: flex;
 }
 
 .navigation {
-    @include mixins.cnavigation;
+    display: flex;
+    justify-content: space-between;
 }

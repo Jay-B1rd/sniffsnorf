@@ -1,0 +1,142 @@
+:root {
+    --bgcolor: #3B2E2B;
+    --border: #201A1B;
+    --link: #FEFE93;
+    --fgcolor: rgba(81, 47, 37, 0.9);
+    --text: #FEAA58;
+    --fadedtext: #CB5A2D;
+}
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    background-image: url("../images/gallerybg.webp");
+    background-color: var(--bgcolor);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
+
+/*
+div {
+    display: flex;
+    margin: 5px 3px;
+}
+*/
+.main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.story {
+    background-color: var(--fgcolor);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 5px auto;
+    align-self: center;
+}
+
+.stitle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+}
+
+.sbody {
+    text-align: left;
+    width: 90%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bbody {
+    text-align: left;
+    width: 90%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.dacontent {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.left, .right {
+    padding: 0 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+    line-height: 2;
+}
+
+ol, li {
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
+}
+
+.sfooter {
+    color: var(--fadedtext);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.2;
+}
+
+.chapternav {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+a {
+    color: var(--link);
+}
+
+img {
+    display: inline-block;
+    width: 49%;
+    border-radius: 8px;
+    margin: 0;
+    border: 0;
+}
+
+.topbar {
+    background-color: var(--fgcolor);
+    color: var(--text);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-self: start;
+    border-bottom: 1px solid var(--border);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.schnif {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
